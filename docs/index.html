@@ -43,7 +43,7 @@
         let date = document.querySelector('#date');
         let value = document.querySelector('#value');
 
-        fetch('data.json')
+        fetch('https://s3.amazonaws.com/dolartoday/data.jsonn')
         .then(res => res.json())
         .then(data=>{
 
