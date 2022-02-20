@@ -46,7 +46,7 @@
         .then(data=>{
 
             date.innerHTML = `
-                <h3> <b> Date: </b> ${data.BCV.fecha} </h3>
+                <h3> <b> Date: </b> ${data._timestamp.fecha} </h3>
             `
             value.innerHTML = `
                 <h3> <b> Value: </b> ${data.USD.transferencia} BsF </h3>
